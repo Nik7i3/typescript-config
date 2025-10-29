@@ -1,38 +1,22 @@
 {
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    /* Type Checking */
-
     /* Modules */
     "moduleResolution": "bundler",
     // "allowImportingTsExtensions": true,
 
     /* Emit */
     "noEmit": true,
-
-    /* JavaScript Support */
-
-    /* Editor Support */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
 
     /* Interop Constraints */
-
-    /* Backwards Compatibility */
+    // "esModuleInterop": true, /* If we set moduleResolution to node, etc. we need to turn this on for safer imports */
 
     /* Language and Environment */
     "target": "ES2024",
     "lib": ["ES2024"],
-    "types": ["node"],
-
-    /* Compiler Diagnostics */
-
-    /* Projects */
-
-    /* Output Formatting */
-
-    /* Completeness */
-
-    /* Command Line */
-
-    /* Watch Options */
+    "types": ["node"]
   }
 }
