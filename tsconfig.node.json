@@ -1,0 +1,38 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    /* Type Checking */
+
+    /* Modules */
+    "moduleResolution": "bundler",
+    // "allowImportingTsExtensions": true,
+
+    /* Emit */
+    "noEmit": true,
+
+    /* JavaScript Support */
+
+    /* Editor Support */
+
+    /* Interop Constraints */
+
+    /* Backwards Compatibility */
+
+    /* Language and Environment */
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "types": ["node"],
+
+    /* Compiler Diagnostics */
+
+    /* Projects */
+
+    /* Output Formatting */
+
+    /* Completeness */
+
+    /* Command Line */
+
+    /* Watch Options */
+  }
+}

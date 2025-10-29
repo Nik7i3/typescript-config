@@ -1,0 +1,39 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    /* Type Checking */
+
+    /* Modules */
+    "moduleResolution": "bundler",
+    // "allowImportingTsExtensions": true,
+
+    /* Emit */
+    "noEmit": true,
+
+    /* JavaScript Support */
+
+    /* Editor Support */
+
+    /* Interop Constraints */
+
+    /* Backwards Compatibility */
+
+    /* Language and Environment */
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"],
+    "useDefineForClassFields": true,
+
+    /* Compiler Diagnostics */
+
+    /* Projects */
+
+    /* Output Formatting */
+
+    /* Completeness */
+
+    /* Command Line */
+
+    /* Watch Options */
+  }
+}
