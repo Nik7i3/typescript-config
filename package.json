@@ -1,0 +1,28 @@
+{
+  "name": "@nik7i3/tsconfig",
+  "version": "0.1.0",
+  "description": "Sharable TypeScript Config",
+  "keywords": [
+    "TypeScript"
+  ],
+  "homepage": "https://github.com/Nik7i3/typescript-config#readme",
+  "bugs": {
+    "url": "https://github.com/Nik7i3/typescript-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nik7i3/typescript-config.git"
+  },
+  "license": "MIT",
+  "author": "Nik7i3",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "yarn@4.10.3"
+}
