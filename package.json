@@ -28,7 +28,9 @@
     "tsconfig.react.json"
   ],
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "release": "semantic-release",
+    "release:dry": "semantic-release --dry-run"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
