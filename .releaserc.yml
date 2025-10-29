@@ -1,4 +1,3 @@
-tagFormat: "Release ${version}"
 branches:
   - main
 plugins:
