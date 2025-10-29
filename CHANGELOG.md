@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Nik7i3/typescript-config/compare/v1.0.0...v1.0.1) (2025-10-29)
+
+
+### Bug Fixes
+
+* add npm provenance ([cc76ae7](https://github.com/Nik7i3/typescript-config/commit/cc76ae7783172092445f8da01604ad3a8f27df54))
+
 # 1.0.0 (2025-10-29)
 
 
