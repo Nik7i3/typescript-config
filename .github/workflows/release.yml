@@ -28,6 +28,8 @@ jobs:
         with:
           node-version: "22"
           cache: "npm"
+          # This line configures npm to use OIDC for auth
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: npm ci
@@ -41,7 +43,6 @@ jobs:
       - name: Run semantic-release
         run: npx semantic-release
         env:
-          # Use the NPM_TOKEN you created
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          # Use the GH_TOKEN you created
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          # The GITHUB_TOKEN is automatically provided by Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # NO NPM_TOKEN IS NEEDED!
