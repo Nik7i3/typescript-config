@@ -43,7 +43,7 @@ jobs:
       #   run: npm test
 
       - name: Run semantic-release
-        run: npx semantic-release
+        run: npm run semantic-release
         env:
           # The GITHUB_TOKEN is automatically provided by Actions
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

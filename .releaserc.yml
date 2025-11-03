@@ -1,5 +1,6 @@
 branches:
   - main
+repositoryUrl: "https://github.com/Nik7i3/typescript-config.git"
 plugins:
   - - "@semantic-release/commit-analyzer"
     - preset: "conventionalcommits"
