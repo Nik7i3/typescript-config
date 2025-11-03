@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/Nik7i3/typescript-config/compare/v1.0.1...v1.0.2) (2025-11-03)
+
+### Bug Fixes
+
+* use local package (dummy) ([21ab341](https://github.com/Nik7i3/typescript-config/commit/21ab3418fb913341165006862fda4d97459d3ce1))
+
 ## [1.0.1](https://github.com/Nik7i3/typescript-config/compare/v1.0.0...v1.0.1) (2025-10-29)
 
 
