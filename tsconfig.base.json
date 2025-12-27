@@ -24,6 +24,7 @@
     /* Editor Support */
 
     /* Interop Constraints */
+    "esModuleInterop": true,
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "erasableSyntaxOnly": true,
