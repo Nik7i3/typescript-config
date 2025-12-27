@@ -25,6 +25,7 @@
   "files": [
     "tsconfig.base.json",
     "tsconfig.node.json",
+    "tsconfig.browser.json",
     "tsconfig.react.json"
   ],
   "scripts": {
