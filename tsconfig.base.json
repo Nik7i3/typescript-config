@@ -34,6 +34,7 @@
     /* Language and Environment */
     "jsx": "react-jsx",
     "moduleDetection": "force",
+    "useDefineForClassFields": true,
 
     /* Compiler Diagnostics */
 
