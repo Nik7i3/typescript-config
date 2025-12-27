@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/Nik7i3/typescript-config/compare/v1.1.0...v1.1.1) (2025-12-27)
+
+### Bug Fixes
+
+* add missing browser export ([3f64b7c](https://github.com/Nik7i3/typescript-config/commit/3f64b7cd1bf4c0c3979356c8b0fc777dafd2e195))
+
 ## [1.1.0](https://github.com/Nik7i3/typescript-config/compare/v1.0.2...v1.1.0) (2025-12-27)
 
 ### Features
