@@ -1,3 +1,14 @@
+## [1.1.0](https://github.com/Nik7i3/typescript-config/compare/v1.0.2...v1.1.0) (2025-12-27)
+
+### Features
+
+* add browser config ([6fa790c](https://github.com/Nik7i3/typescript-config/commit/6fa790cb39cd7d973dee8f1249e6fd4471c84889))
+* enable esModuleInterop for base config ([d2ce311](https://github.com/Nik7i3/typescript-config/commit/d2ce311f235d8109cd4ff9231d0842620d6152ba))
+
+### Bug Fixes
+
+* move useDefineForClassFields to base config ([8e9fa78](https://github.com/Nik7i3/typescript-config/commit/8e9fa78927488d9cd9b6dbad58f47201fe9487dd))
+
 ## [1.0.2](https://github.com/Nik7i3/typescript-config/compare/v1.0.1...v1.0.2) (2025-11-03)
 
 ### Bug Fixes
